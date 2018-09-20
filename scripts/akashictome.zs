@@ -312,15 +312,7 @@ print(" ==================================================== ");
 				},
 				Damage: 0 as short
 			},
-			/*
-			zawa: {
-				id: "zawa:data_book",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "zawa"
-				},
-				Damage: 0 as short
-			},*/
+
 			cyclicmagic: {
 				id: "guideapi:cyclicmagic-guide",
 				Count: 1 as byte,

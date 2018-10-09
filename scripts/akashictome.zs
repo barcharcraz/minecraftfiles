@@ -328,7 +328,63 @@ print(" ==================================================== ");
 					"akashictome:definedMod": "projecte"
 				},
 				Damage: 0 as short
-			}
+			},
+			immersiverailroading: {
+				id: "immersiverailroading:item_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "immersiverailroading"
+				},
+				Damage: 0 as short
+			},
+			ancientwarfare: {
+				id: "ancientwarfare:manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "ancientwarfare"
+				},
+				Damage: 0 as short
+			},
+			totemic: {
+				id: "totemic:totempedia",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "totemic"
+				},
+				Damage: 0 as short
+			},
+			aquamunda: {
+				id: "aquamunda:manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "aquamunda"
+				},
+				Damage: 0 as short
+			},
+			aquamunda_board: {
+				id: "aquamunda:board_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "aquamunda_board"
+				},
+				Damage: 0 as short
+			},
+			aquamunda_cooker: {
+				id: "aquamunda:cooker_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "aquamunda_cooker"
+				},
+				Damage: 0 as short
+			},
+			aquamunda_grindstone: {
+				id: "aquamunda:grindstone_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "aquamunda_grindstone"
+				},
+				Damage: 0 as short
+			},
 		}
 	}
 	

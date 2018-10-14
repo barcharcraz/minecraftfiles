@@ -1,4 +1,4 @@
 *
 !scripts/
-!defaultoptions/
+!config/defaultoptions/*
 !.gitignore

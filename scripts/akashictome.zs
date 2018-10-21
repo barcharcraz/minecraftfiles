@@ -385,6 +385,33 @@ print(" ==================================================== ");
 				},
 				Damage: 0 as short
 			},
+			mffs: {
+				id: "guideapi:minecraft-mffsguide",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "mffs"
+				},
+				Damage: 0 as short
+			},
+			matteroverdrive: {
+				id: "matteroverdrive:data_pad",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "matteroverdrive"
+				},
+				Damage: 0 as short
+			},
+			chemestry: {
+			    id: "gbook:guidebook",
+				Count: 1 as byte,
+				
+				tag: {
+					"akashictome:definedMod": "chemestry",
+					Book: "rockhounding_chemistry:xml/chembook.xml",
+					"akashictome:displayName": "Rockhounding Chemestry Guide book"
+				},
+				Damage: 0 as short
+			}
 		}
 	}
 	

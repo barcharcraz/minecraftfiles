@@ -1,0 +1,1 @@
+recipes.removeByRecipeName("minecolonies:shapedexample");

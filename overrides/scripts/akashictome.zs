@@ -1,0 +1,529 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+
+#packmode normal simplified
+
+
+print(" =================== Akashic Tome =================== ");
+print(" ==================================================== ");
+/*
+	Script just for the "all books included" tome to make it easier
+	to see/find/edit/organize things related to just this tome
+*/
+
+
+//====== Ahashic Tome ======
+//
+	var completeTome = <akashictome:tome>.withTag(
+
+	{
+		"akashictome:is_morphing": 1 as byte,
+		"akashictome:data": {
+			tconstruct: {
+				id: "tconstruct:book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "tconstruct"
+				},
+				Damage: 0 as short
+			},
+			immersiveengineering: {
+				id: "immersiveengineering:tool",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "immersiveengineering"
+				},
+				Damage: 3 as short
+			},
+			rustic: {
+				id: "rustic:book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "rustic"
+				},
+				Damage: 0 as short
+			},
+			botania: {
+				id: "botania:lexicon",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "botania"
+				},
+				Damage: 0 as short
+			},
+			cookingforblockheads: {
+				id: "cookingforblockheads:recipe_book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "cookingforblockheads"
+				},
+				Damage: 0 as short
+			},
+
+			embers: {
+				id: "embers:codex",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "embers"
+				},
+				Damage: 0 as short
+			},
+			forestry: {
+				id: "forestry:book_forester",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "forestry"
+				},
+				Damage: 0 as short
+			},
+			openblocks: {
+				id: "openblocks:info_book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "openblocks"
+				},
+				Damage: 0 as short
+			},
+			conarm: {
+				id: "conarm:book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "conarm"
+				},
+				Damage: 0 as short
+			},
+			thebetweenlands: {
+				id: "thebetweenlands:manual_hl",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "thebetweenlands"
+				},
+				Damage: 0 as short
+			},
+			wizardry: {
+				id: "wizardry:book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "wizardry"
+				},
+				Damage: 0 as short
+			},
+			rftoolsdim: {
+				id: "rftoolsdim:rftoolsdim_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "rftoolsdim"
+				},
+				Damage: 0 as short
+			},
+			rftoolscontrol: {
+				id: "rftoolscontrol:rftoolscontrol_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "rftoolscontrol"
+				},
+				Damage: 0 as short
+			},
+			rftools1: {
+				id: "rftools:rftools_shape_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "rftools1"
+				},
+				Damage: 0 as short
+			},
+			rftools: {
+				id: "rftools:rftools_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "rftools"
+				},
+				Damage: 0 as short
+			},
+			xnet: {
+				id: "xnet:xnet_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "xnet"
+				},
+				Damage: 0 as short
+			},
+
+			/* roots: {
+				id: "roots:herblore_book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "roots"
+				},
+				Damage: 0 as short
+			},
+			roots1: {
+				id: "roots:spellcraft_book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "roots1"
+				},
+				Damage: 0 as short
+			},
+			roots2: {
+				id: "roots:ritual_book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "roots2"
+				},
+				Damage: 0 as short
+			}, */
+			roots: {
+				id: "patchouli:guide_book",
+				Count: 1 as byte,
+				tag: {
+					"patchouli:book": "roots:roots_guide",
+					"akashictome:definedMod": "roots"
+				},
+				Damage: 0 as short
+			},
+			techguns: {
+				id: "patchouli:guide_book",
+				Count: 1 as byte,
+				tag: {
+					"patchouli:book": "techguns:techguns_manual",
+					"akashictome:definedMod": "techguns"
+				},
+				Damage: 0 as short
+			},
+			pneumaticcraft: {
+				id: "patchouli:guide_book",
+				Count: 1 as byte,
+				tag: {
+					"patchouli:book": "pneumaticcraft:book",
+					"akashictome:definedMod": "pneumaticcraft"
+				},
+				Damage: 0 as short
+			},
+			opencomputers: {
+				id: "opencomputers:tool",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "opencomputers"
+				},
+				Damage: 4 as short
+			},
+			deepmoblearning: {
+				id: "patchouli:guide_book",
+				Count: 1 as byte,
+				tag: {
+					"patchouli:book": "deepmoblearning:book",
+					"akashictome:definedMod": "deepmoblearning"
+				},
+				Damage: 0 as short
+			},
+			pyrotech: {
+				id: "pyrotech:book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "pyrotech"
+				},
+				Damage: 0 as short
+			},
+			alchemistry: {
+				id: "patchouli:guide_book",
+				Count: 1 as byte,
+				tag: {
+					"patchouli:book": "alchemistry:alchemistry_book",
+					"akashictome:definedMod": "roots"
+				},
+				Damage: 0 as short
+			},
+			draconicevolution: {
+				id: "draconicevolution:info_tablet",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "draconicevolution"
+				},
+				Damage: 0 as short
+			},
+			extrautils2: {
+				id: "extrautils2:book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "extrautils2"
+				},
+				Damage: 0 as short
+			},
+			integratedtunnels: {
+				id: "integrateddynamics:on_the_dynamics_of_integration",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "integratedtunnels"
+				},
+				Damage: 0 as short
+			},
+			thermalfoundation: {
+				id: "thermalfoundation:tome_lexicon",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "thermalfoundation"
+				},
+				Damage: 0 as short
+			},
+			mts: {
+				id: "mts:manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "mts"
+				},
+				Damage: 0 as short
+			},
+			bloodmagic: {
+				id: "guideapi:bloodmagic-guide",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "bloodmagic"
+				},
+				Damage: 0 as short
+			},
+			actuallyadditions: {
+				id: "actuallyadditions:item_booklet",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "actuallyadditions"
+				},
+				Damage: 0 as short
+			},
+			industrialforegoing: {
+				id: "industrialforegoing:book_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "industrialforegoing"
+				},
+				Damage: 0 as short
+			},
+			astralsorcery: {
+				id: "astralsorcery:itemjournal",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "astralsorcery"
+				},
+				Damage: 0 as short
+			},
+			valkyrielib: {
+				id: "valkyrielib:guide",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "valkyrielib"
+				},
+				Damage: 0 as short
+			},
+			mystcraftltta: {
+			    id: "gbook:guidebook",
+				Count: 1 as byte,
+				
+				tag: {
+					"akashictome:definedMod": "mystcraftltta",
+					Book: "ltta:xml/ltta.xml",
+					"akashictome:displayName": "Linking Through the Ages"
+				},
+				Damage: 0 as short
+			},
+			minecolonies: {
+			    id: "gbook:guidebook",
+				Count: 1 as byte,
+				
+				tag: {
+					"akashictome:definedMod": "minecolonies",
+					Book: "minecolonies:book/minecolonies.xml",
+					"akashictome:displayName": "Minecolonies Manual"
+				},
+				Damage: 0 as short
+			},
+			gbook: {
+			    id: "gbook:guidebook",
+				Count: 1 as byte,
+				
+				tag: {
+					"akashictome:definedMod": "gbook",
+					"akashictome:displayName": "Guidebook Manual",
+					Book: "gbook:xml/guidebook.xml"
+				},
+				Damage: 0 as short
+			},
+			buildcraft: {
+				id: "buildcraftlib:guide",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "buildcraft"
+				},
+				Damage: 0 as short
+			},
+			immcraft: {
+				id: "immcraft:manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "immcraft"
+				},
+				Damage: 0 as short
+			},
+			betterwithmods: {
+				id: "betterwithmods:manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "betterwithmods"
+				},
+				Damage: 0 as short
+			},
+
+			cyclicmagic: {
+				id: "guideapi:cyclicmagic-guide",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "cyclicmagic"
+				},
+				Damage: 0 as short
+			},
+			projecte: {
+				id: "projecte:item.pe_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "projecte"
+				},
+				Damage: 0 as short
+			},
+			immersiverailroading: {
+				id: "immersiverailroading:item_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "immersiverailroading"
+				},
+				Damage: 0 as short
+			},
+			ancientwarfare: {
+				id: "ancientwarfare:manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "ancientwarfare"
+				},
+				Damage: 0 as short
+			},
+			totemic: {
+				id: "totemic:totempedia",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "totemic"
+				},
+				Damage: 0 as short
+			},
+			aquamunda: {
+				id: "aquamunda:manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "aquamunda"
+				},
+				Damage: 0 as short
+			},
+			aquamunda_board: {
+				id: "aquamunda:board_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "aquamunda_board"
+				},
+				Damage: 0 as short
+			},
+			aquamunda_cooker: {
+				id: "aquamunda:cooker_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "aquamunda_cooker"
+				},
+				Damage: 0 as short
+			},
+			aquamunda_grindstone: {
+				id: "aquamunda:grindstone_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "aquamunda_grindstone"
+				},
+				Damage: 0 as short
+			},
+			mffs: {
+				id: "guideapi:minecraft-mffsguide",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "mffs"
+				},
+				Damage: 0 as short
+			},
+			matteroverdrive: {
+				id: "matteroverdrive:data_pad",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "matteroverdrive"
+				},
+				Damage: 0 as short
+			},
+			chemestry: {
+			    id: "gbook:guidebook",
+				Count: 1 as byte,
+				
+				tag: {
+					"akashictome:definedMod": "chemestry",
+					Book: "rockhounding_chemistry:xml/chembook.xml",
+					"akashictome:displayName": "Rockhounding Chemestry Guide book"
+				},
+				Damage: 0 as short
+			},
+			chemestry: {
+			    id: "gbook:guidebook",
+				Count: 1 as byte,
+				
+				tag: {
+					"akashictome:definedMod": "chemestry",
+					Book: "rockhounding_chemistry:xml/chemquest.xml",
+					"akashictome:displayName": "Rockhounding Chemestry Quest book"
+				},
+				Damage: 0 as short
+			},
+			hardcorequesting: {
+				id: "hardcorequesting:quest_book",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "hardcorequesting"
+				},
+				Damage: 0 as short
+			},
+			naturesaura: {
+				id: "patchouli:guide_book",
+				Count: 1 as byte,
+				tag: {
+					"patchouli:book": "naturesaura:book",
+					"akashictome:definedMod": "naturesaura"
+				},
+				Damage: 0 as short
+			},
+			agricraft: {
+				id: "agricraft:journal",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "agricraft"
+				},
+				Damage: 0 as short
+			}
+		}
+	}
+	
+	);
+
+	//metadata to item
+	completeTome.addTooltip(format.aqua("Contains all basic mod manuals/guides already included"));
+	mods.jei.JEI.addDescription(completeTome, "The Akashic tome is a book for your books...",
+											  "This recipe of 1 dirt = full book is added by All The Mods to ALREADY contain most/all modded manuals as a convenience for our players");
+
+	//add the full book to JEI as it's own entry
+	mods.jei.JEI.addItem(completeTome);
+
+	//1 dirt = book
+	recipes.addShapeless(completeTome, [<minecraft:dirt>, <minecraft:cobblestone>]);
+	
+	// Starting item
+	mods.initialinventory.InvHandler.addStartingItem(completeTome);

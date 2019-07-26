@@ -1,0 +1,4322 @@
+[
+  {
+    "coreMaterialStats": {
+      "durability": 103.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 25.424,
+      "modifier": 50.0,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 25.424,
+      "materialType": "trim"
+    },
+    "identifier": "aethium",
+    "meta": 0,
+    "color": -16777216,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 56.0,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 56.0,
+      "materialType": "trim"
+    },
+    "identifier": "awakened_plustic",
+    "meta": 0,
+    "color": -22016,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 25.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 28.0,
+      "modifier": 27.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 28.0,
+      "materialType": "trim"
+    },
+    "identifier": "dark_steel",
+    "meta": 0,
+    "color": -9671572,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 2.0,
+      "defense": 4.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 1.12,
+      "modifier": 4.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 1.12,
+      "materialType": "trim"
+    },
+    "identifier": "construction_alloy",
+    "meta": 0,
+    "color": -14084054,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 5.0,
+      "defense": 6.75,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.8,
+      "modifier": 6.75,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.8,
+      "materialType": "trim"
+    },
+    "identifier": "redstone_alloy",
+    "meta": 0,
+    "color": -5167321,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "magentacloth",
+    "meta": 0,
+    "color": -5025604,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 8.0,
+      "defense": 31.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 31.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "steeleaf",
+    "meta": 0,
+    "color": -11368646,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 18.0,
+      "defense": 20.25,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 17.36,
+      "modifier": 20.25,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 17.36,
+      "materialType": "trim"
+    },
+    "identifier": "nihilite",
+    "meta": 0,
+    "color": -11184811,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 58.0,
+      "defense": 36.450005,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 36.450005,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "vibranium",
+    "meta": 0,
+    "color": -5592406,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 32.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 4.48,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 4.48,
+      "materialType": "trim"
+    },
+    "identifier": "fluix",
+    "meta": 0,
+    "color": -5222690,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 30.0,
+      "defense": 31.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 2.8,
+      "modifier": 31.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.8,
+      "materialType": "trim"
+    },
+    "identifier": "tanzanite",
+    "meta": 0,
+    "color": -43521,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 90.0,
+      "defense": 40.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 10.08,
+      "modifier": 40.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 10.08,
+      "materialType": "trim"
+    },
+    "identifier": "mirion",
+    "meta": 0,
+    "color": -171,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "whitecloth",
+    "meta": 0,
+    "color": -2236963,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 25.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 6.72,
+      "modifier": 27.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 6.72,
+      "materialType": "trim"
+    },
+    "identifier": "elementium",
+    "meta": 0,
+    "color": -43521,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "pinkcloth",
+    "meta": 0,
+    "color": -3111783,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 32.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.88,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.88,
+      "materialType": "trim"
+    },
+    "identifier": "tungsten",
+    "meta": 0,
+    "color": -12171687,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 37.0,
+      "defense": 28.035,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 5.6,
+      "modifier": 28.035,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 5.6,
+      "materialType": "trim"
+    },
+    "identifier": "blutonium",
+    "meta": 0,
+    "color": -14083900,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 37.0,
+      "defense": 33.39,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 10.64,
+      "modifier": 33.39,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 10.64,
+      "materialType": "trim"
+    },
+    "identifier": "redgarnet",
+    "meta": 0,
+    "color": -1235932,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 28.0,
+      "defense": 31.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 14.0,
+      "modifier": 31.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 14.0,
+      "materialType": "trim"
+    },
+    "identifier": "valyriansteel",
+    "meta": 0,
+    "color": -1910302,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 37.0,
+      "defense": 30.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": -5.6,
+      "modifier": 30.6,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": -5.6,
+      "materialType": "trim"
+    },
+    "identifier": "palladium",
+    "meta": 0,
+    "color": -22016,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 32.0,
+      "defense": 27.99,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 3.584,
+      "modifier": 27.99,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 3.584,
+      "materialType": "trim"
+    },
+    "identifier": "invar",
+    "meta": 0,
+    "color": -3881788,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 94.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 67.2,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 67.2,
+      "materialType": "trim"
+    },
+    "identifier": "awakeneddraconium",
+    "meta": 0,
+    "color": -14039,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 31.0,
+      "defense": 17.640001,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 22.4,
+      "modifier": 17.640001,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 22.4,
+      "materialType": "trim"
+    },
+    "identifier": "lumix",
+    "meta": 0,
+    "color": -171,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 81.0,
+      "defense": 47.25,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.432,
+      "modifier": 47.25,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.432,
+      "materialType": "trim"
+    },
+    "identifier": "darkmatter",
+    "meta": 0,
+    "color": -14221005,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 1.0,
+      "defense": 2.3849998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": -1.344,
+      "modifier": 2.3849998,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": -1.344,
+      "materialType": "trim"
+    },
+    "identifier": "zinc",
+    "meta": 0,
+    "color": -2887704,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 46.0,
+      "defense": 49.815,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 19.039999,
+      "modifier": 49.815,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 19.039999,
+      "materialType": "trim"
+    },
+    "identifier": "ivorypsi",
+    "meta": 0,
+    "color": -13858615,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 31.0,
+      "defense": 22.859999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": -2.24,
+      "modifier": 22.859999,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": -2.24,
+      "materialType": "trim"
+    },
+    "identifier": "yellorium",
+    "meta": 0,
+    "color": -329912,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 28.0,
+      "defense": 30.780003,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.96,
+      "modifier": 30.780003,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.96,
+      "materialType": "trim"
+    },
+    "identifier": "sapphire",
+    "meta": 0,
+    "color": -16043050,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 70.0,
+      "defense": 2.25,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 2.25,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "obsidiorite",
+    "meta": 0,
+    "color": -14530477,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "limecloth",
+    "meta": 0,
+    "color": -12472776,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 14.85,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.8,
+      "modifier": 14.85,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.8,
+      "materialType": "trim"
+    },
+    "identifier": "tritonite",
+    "meta": 0,
+    "color": -22016,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 7.0,
+      "defense": 40.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.4,
+      "modifier": 40.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.4,
+      "materialType": "trim"
+    },
+    "identifier": "dogbearium",
+    "meta": 0,
+    "color": -9620736,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 22.0,
+      "defense": 19.8,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 15.68,
+      "modifier": 19.8,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 15.68,
+      "materialType": "trim"
+    },
+    "identifier": "void_actadd_plustic",
+    "meta": 0,
+    "color": -16777216,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 65.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 33.6,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 33.6,
+      "materialType": "trim"
+    },
+    "identifier": "draconium",
+    "meta": 0,
+    "color": -8769849,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 18.0,
+      "defense": 22.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.8,
+      "modifier": 22.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.8,
+      "materialType": "trim"
+    },
+    "identifier": "end_steel",
+    "meta": 0,
+    "color": -262989,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 65.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 33.6,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 33.6,
+      "materialType": "trim"
+    },
+    "identifier": "ludicrite",
+    "meta": 0,
+    "color": -2872108,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 1.0,
+      "defense": 9.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 1.68,
+      "modifier": 9.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 1.68,
+      "materialType": "trim"
+    },
+    "identifier": "xu_magical_wood",
+    "meta": 0,
+    "color": -131160,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 4.0,
+      "defense": 4.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": -10.08,
+      "modifier": 4.5,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": -10.08,
+      "materialType": "trim"
+    },
+    "identifier": "rosegold",
+    "meta": 0,
+    "color": -25724,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 10.0,
+      "defense": 40.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 6.72,
+      "modifier": 40.5,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 6.72,
+      "materialType": "trim"
+    },
+    "identifier": "vibrant_alloy",
+    "meta": 0,
+    "color": -4798352,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 37.0,
+      "defense": 33.39,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 10.64,
+      "modifier": 33.39,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 10.64,
+      "materialType": "trim"
+    },
+    "identifier": "yellowgarnet",
+    "meta": 0,
+    "color": -658149,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "browncloth",
+    "meta": 0,
+    "color": -11587041,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 10.0,
+      "defense": 22.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.087999,
+      "modifier": 22.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.087999,
+      "materialType": "trim"
+    },
+    "identifier": "sinisterium",
+    "meta": 0,
+    "color": -14614528,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 3.0,
+      "defense": 49.950005,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 2.24,
+      "modifier": 49.950005,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.24,
+      "materialType": "trim"
+    },
+    "identifier": "xu_demonic_metal",
+    "meta": 0,
+    "color": -6079744,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "silky",
+    "meta": 0,
+    "color": -8838,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 75.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 20.16,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 20.16,
+      "materialType": "trim"
+    },
+    "identifier": "gaia",
+    "meta": 0,
+    "color": -7252043,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 25.2,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 25.2,
+      "materialType": "trim"
+    },
+    "identifier": "ma.superium",
+    "meta": 0,
+    "color": -16744485,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 56.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 32.48,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 32.48,
+      "materialType": "trim"
+    },
+    "identifier": "ebonypsi",
+    "meta": 0,
+    "color": -16119286,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 20.0,
+      "defense": 18.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 5.6,
+      "modifier": 18.0,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 5.6,
+      "materialType": "trim"
+    },
+    "identifier": "fusewood_plustic",
+    "meta": 0,
+    "color": -16723570,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 2.0,
+      "defense": 12.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 2.24,
+      "modifier": 12.6,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.24,
+      "materialType": "trim"
+    },
+    "identifier": "livingwood_plustic",
+    "meta": 0,
+    "color": -16733696,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 30.0,
+      "defense": 27.45,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 2.24,
+      "modifier": 27.45,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.24,
+      "materialType": "trim"
+    },
+    "identifier": "malachite_gem",
+    "meta": 0,
+    "color": -16733696,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 3.0,
+      "defense": 3.825,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": -1.12,
+      "modifier": 3.825,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": -1.12,
+      "materialType": "trim"
+    },
+    "identifier": "aluminum",
+    "meta": 0,
+    "color": -1056555,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "redcloth",
+    "meta": 0,
+    "color": -6933456,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 29.0,
+      "defense": 22.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 3.36,
+      "modifier": 22.5,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 3.36,
+      "materialType": "trim"
+    },
+    "identifier": "psimetal",
+    "meta": 0,
+    "color": -9593089,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 1.0,
+      "defense": 0.45,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 2.24,
+      "modifier": 0.45,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.24,
+      "materialType": "trim"
+    },
+    "identifier": "ma.prosperity",
+    "meta": 0,
+    "color": -6044219,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 63.0,
+      "defense": 26.55,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.8,
+      "modifier": 26.55,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.8,
+      "materialType": "trim"
+    },
+    "identifier": "imperomite",
+    "meta": 0,
+    "color": -5636096,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 4.0,
+      "defense": 4.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 2.8,
+      "modifier": 4.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.8,
+      "materialType": "trim"
+    },
+    "identifier": "gold",
+    "meta": 0,
+    "color": -3032,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 29.0,
+      "defense": 18.945,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 2.8,
+      "modifier": 18.945,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.8,
+      "materialType": "trim"
+    },
+    "identifier": "proxii",
+    "meta": 0,
+    "color": -43521,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 16.0,
+      "defense": 20.25,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.4,
+      "modifier": 20.25,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.4,
+      "materialType": "trim"
+    },
+    "identifier": "ma.inferium",
+    "meta": 0,
+    "color": -9138688,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 28.0,
+      "defense": 30.780003,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.96,
+      "modifier": 30.780003,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.96,
+      "materialType": "trim"
+    },
+    "identifier": "peridot",
+    "meta": 0,
+    "color": -15341515,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 16.0,
+      "defense": 15.75,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.96,
+      "modifier": 15.75,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.96,
+      "materialType": "trim"
+    },
+    "identifier": "xu_enchanted_metal",
+    "meta": 0,
+    "color": -4197792,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 11.0,
+      "defense": 20.25,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 7.84,
+      "modifier": 20.25,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 7.84,
+      "materialType": "trim"
+    },
+    "identifier": "certusquartz_plustic",
+    "meta": 0,
+    "color": 1439950847,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "yellowcloth",
+    "meta": 0,
+    "color": -5134809,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 94.0,
+      "defense": 4.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 22.4,
+      "modifier": 4.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 22.4,
+      "materialType": "trim"
+    },
+    "identifier": "integrationforegoing.pink_slime",
+    "meta": 0,
+    "color": -807226,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 94.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.76,
+      "modifier": 50.0,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.76,
+      "materialType": "trim"
+    },
+    "identifier": "redmatter",
+    "meta": 0,
+    "color": -1900544,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 42.0,
+      "defense": 22.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 28.0,
+      "modifier": 22.5,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 28.0,
+      "materialType": "trim"
+    },
+    "identifier": "dyonite",
+    "meta": 0,
+    "color": -11141291,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 39.0,
+      "defense": 29.25,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 6.72,
+      "modifier": 29.25,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 6.72,
+      "materialType": "trim"
+    },
+    "identifier": "lumium_plustic",
+    "meta": 0,
+    "color": -171,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 43.0,
+      "defense": 9.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 28.0,
+      "modifier": 9.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 28.0,
+      "materialType": "trim"
+    },
+    "identifier": "pulsating_iron",
+    "meta": 0,
+    "color": -13856700,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "purplecloth",
+    "meta": 0,
+    "color": -8503883,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "lightgraycloth",
+    "meta": 0,
+    "color": -6643295,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 51.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 25.76,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 25.76,
+      "materialType": "trim"
+    },
+    "identifier": "electrumflux",
+    "meta": 0,
+    "color": -2709,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 35.0,
+      "defense": 17.01,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 14.56,
+      "modifier": 17.01,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 14.56,
+      "materialType": "trim"
+    },
+    "identifier": "aurorium",
+    "meta": 0,
+    "color": -43691,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 18.0,
+      "defense": 19.125,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.432,
+      "modifier": 19.125,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.432,
+      "materialType": "trim"
+    },
+    "identifier": "thaumium",
+    "meta": 0,
+    "color": -14811034,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "bluecloth",
+    "meta": 0,
+    "color": -13748083,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 1.0,
+      "defense": 9.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 2.24,
+      "modifier": 9.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.24,
+      "materialType": "trim"
+    },
+    "identifier": "treatedwood",
+    "meta": 0,
+    "color": -10144478,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 34.0,
+      "defense": 25.65,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 25.65,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "amber",
+    "meta": 0,
+    "color": -22016,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 43.0,
+      "defense": 16.875,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 5.6,
+      "modifier": 16.875,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 5.6,
+      "materialType": "trim"
+    },
+    "identifier": "violium",
+    "meta": 0,
+    "color": -5635926,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 1.0,
+      "defense": 18.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 6.72,
+      "modifier": 18.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 6.72,
+      "materialType": "trim"
+    },
+    "identifier": "constantan",
+    "meta": 0,
+    "color": -1015446,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 47.0,
+      "defense": 13.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 28.0,
+      "modifier": 13.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 28.0,
+      "materialType": "trim"
+    },
+    "identifier": "yrdeen",
+    "meta": 0,
+    "color": -43691,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 29.0,
+      "defense": 22.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 3.36,
+      "modifier": 22.5,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 3.36,
+      "materialType": "trim"
+    },
+    "identifier": "psigem",
+    "meta": 0,
+    "color": -16235613,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 37.0,
+      "defense": 31.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 7.28,
+      "modifier": 31.5,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 7.28,
+      "materialType": "trim"
+    },
+    "identifier": "enderium_plustic",
+    "meta": 0,
+    "color": -16733696,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 23.0,
+      "defense": 18.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 5.6,
+      "modifier": 18.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 5.6,
+      "materialType": "trim"
+    },
+    "identifier": "aeonsteel",
+    "meta": 0,
+    "color": -6000416,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 80.0,
+      "defense": 28.35,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 9.856,
+      "modifier": 28.35,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 9.856,
+      "materialType": "trim"
+    },
+    "identifier": "diamatine_actadd_plustic",
+    "meta": 0,
+    "color": -11184641,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 32.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.432,
+      "modifier": 27.0,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.432,
+      "materialType": "trim"
+    },
+    "identifier": "litherite",
+    "meta": 0,
+    "color": -16282031,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 23.0,
+      "defense": 47.025,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 2.9120002,
+      "modifier": 47.025,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.9120002,
+      "materialType": "trim"
+    },
+    "identifier": "certus",
+    "meta": 0,
+    "color": -3349264,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 61.0,
+      "defense": 36.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.96,
+      "modifier": 36.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.96,
+      "materialType": "trim"
+    },
+    "identifier": "osmiridium",
+    "meta": 0,
+    "color": -43521,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 23.0,
+      "defense": 42.75,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 14.0,
+      "modifier": 42.75,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 14.0,
+      "materialType": "trim"
+    },
+    "identifier": "nucleum",
+    "meta": 0,
+    "color": -171,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 41.0,
+      "defense": 32.4,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 19.6,
+      "modifier": 32.4,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 19.6,
+      "materialType": "trim"
+    },
+    "identifier": "uru",
+    "meta": 0,
+    "color": -5636096,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 33.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 6.72,
+      "modifier": 27.0,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 6.72,
+      "materialType": "trim"
+    },
+    "identifier": "platinum_plustic",
+    "meta": 0,
+    "color": -11184641,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 14.0,
+      "defense": 11.25,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 11.25,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "ghostwood_plustic",
+    "meta": 0,
+    "color": -1,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 32.0,
+      "defense": 23.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 6.16,
+      "modifier": 23.399998,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 6.16,
+      "materialType": "trim"
+    },
+    "identifier": "signalum_plustic",
+    "meta": 0,
+    "color": -43691,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 17.0,
+      "defense": 20.25,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 5.6,
+      "modifier": 20.25,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 5.6,
+      "materialType": "trim"
+    },
+    "identifier": "blackquartz_plustic",
+    "meta": 0,
+    "color": -16777216,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 35.0,
+      "defense": 24.3,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 22.4,
+      "modifier": 24.3,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 22.4,
+      "materialType": "trim"
+    },
+    "identifier": "astrium",
+    "meta": 0,
+    "color": -5635926,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "orangecloth",
+    "meta": 0,
+    "color": -2392770,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 14.0,
+      "defense": 10.125,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.4,
+      "modifier": 10.125,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.4,
+      "materialType": "trim"
+    },
+    "identifier": "electrical_steel",
+    "meta": 0,
+    "color": -5658199,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 33.0,
+      "defense": 34.2,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 22.4,
+      "modifier": 34.2,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 22.4,
+      "materialType": "trim"
+    },
+    "identifier": "fierymetal",
+    "meta": 0,
+    "color": -142243,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 25.0,
+      "defense": 22.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 19.039999,
+      "modifier": 22.5,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 19.039999,
+      "materialType": "trim"
+    },
+    "identifier": "bloodwood_plustic",
+    "meta": 0,
+    "color": -10485760,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 36.0,
+      "defense": 27.225,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 5.6,
+      "modifier": 27.225,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 5.6,
+      "materialType": "trim"
+    },
+    "identifier": "seismum",
+    "meta": 0,
+    "color": -11141291,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 10.0,
+      "defense": 37.575005,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 5.6,
+      "modifier": 37.575005,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 5.6,
+      "materialType": "trim"
+    },
+    "identifier": "triberium",
+    "meta": 0,
+    "color": -11141291,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 64.0,
+      "defense": 41.534996,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.8,
+      "modifier": 41.534996,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.8,
+      "materialType": "trim"
+    },
+    "identifier": "ma.intermedium",
+    "meta": 0,
+    "color": -4765440,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 49.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 49.5,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "osgloglas",
+    "meta": 0,
+    "color": -9240728,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 82.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.0,
+      "modifier": 27.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.0,
+      "materialType": "trim"
+    },
+    "identifier": "adamant",
+    "meta": 0,
+    "color": -22016,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 66.0,
+      "defense": 33.254997,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 13.44,
+      "modifier": 33.254997,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 13.44,
+      "materialType": "trim"
+    },
+    "identifier": "platinum",
+    "meta": 0,
+    "color": -12989702,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 16.0,
+      "defense": 29.969997,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 28.0,
+      "modifier": 29.969997,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 28.0,
+      "materialType": "trim"
+    },
+    "identifier": "ignitz",
+    "meta": 0,
+    "color": -43691,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 70.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.8,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.8,
+      "materialType": "trim"
+    },
+    "identifier": "integrationforegoing.plastic",
+    "meta": 0,
+    "color": -5395027,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 47.0,
+      "defense": 33.75,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 15.68,
+      "modifier": 33.75,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 15.68,
+      "materialType": "trim"
+    },
+    "identifier": "erodium",
+    "meta": 0,
+    "color": -4499713,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 25.0,
+      "defense": 31.185001,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 13.103999,
+      "modifier": 31.185001,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 13.103999,
+      "materialType": "trim"
+    },
+    "identifier": "fractum",
+    "meta": 0,
+    "color": -5636096,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 25.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 6.72,
+      "modifier": 27.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 6.72,
+      "materialType": "trim"
+    },
+    "identifier": "manasteel",
+    "meta": 0,
+    "color": -11184641,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 1.0,
+      "defense": 0.54,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.336,
+      "modifier": 0.54,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.336,
+      "materialType": "trim"
+    },
+    "identifier": "rubber",
+    "meta": 0,
+    "color": -10727601,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 14.0,
+      "defense": 10.215,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 4.48,
+      "modifier": 10.215,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 4.48,
+      "materialType": "trim"
+    },
+    "identifier": "tin",
+    "meta": 0,
+    "color": -4076068,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 21.0,
+      "defense": 45.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 45.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "refinedglowstone",
+    "meta": 0,
+    "color": -171,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 70.0,
+      "defense": 6.75,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.0,
+      "modifier": 6.75,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.0,
+      "materialType": "trim"
+    },
+    "identifier": "meteorite",
+    "meta": 0,
+    "color": -16733696,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 14.0,
+      "defense": 21.734999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 6.72,
+      "modifier": 21.734999,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 6.72,
+      "materialType": "trim"
+    },
+    "identifier": "cyanite",
+    "meta": 0,
+    "color": -14300709,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 28.0,
+      "defense": 23.399998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.4,
+      "modifier": 23.399998,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.4,
+      "materialType": "trim"
+    },
+    "identifier": "enori_actadd_plustic",
+    "meta": 0,
+    "color": -1,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 73.0,
+      "defense": 29.25,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 1.12,
+      "modifier": 29.25,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 1.12,
+      "materialType": "trim"
+    },
+    "identifier": "terrasteel",
+    "meta": 0,
+    "color": -11141291,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 75.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 56.0,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 56.0,
+      "materialType": "trim"
+    },
+    "identifier": "advancedalloy",
+    "meta": 0,
+    "color": -17496,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 156.8,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 156.8,
+      "materialType": "trim"
+    },
+    "identifier": "infinity_avaritia_plustic",
+    "meta": 0,
+    "color": -43521,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 32.0,
+      "defense": 29.789999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 29.789999,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "ma.prudentium",
+    "meta": 0,
+    "color": -16741341,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 24.75,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 30.24,
+      "modifier": 24.75,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 30.24,
+      "materialType": "trim"
+    },
+    "identifier": "integrationforegoing.reinforced_pink_slime",
+    "meta": 0,
+    "color": -4032074,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 37.0,
+      "defense": 35.235,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 15.68,
+      "modifier": 35.235,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 15.68,
+      "materialType": "trim"
+    },
+    "identifier": "chrome",
+    "meta": 0,
+    "color": -2697514,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 16.0,
+      "defense": 13.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 10.08,
+      "modifier": 13.5,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 10.08,
+      "materialType": "trim"
+    },
+    "identifier": "darkwood_plustic",
+    "meta": 0,
+    "color": -16777046,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 65.0,
+      "defense": 34.65,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.624,
+      "modifier": 34.65,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.624,
+      "materialType": "trim"
+    },
+    "identifier": "emeradic_actadd_plustic",
+    "meta": 0,
+    "color": -16733696,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 12.0,
+      "defense": 7.9199996,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.448,
+      "modifier": 7.9199996,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.448,
+      "materialType": "trim"
+    },
+    "identifier": "brass",
+    "meta": 0,
+    "color": -1186933,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "cyancloth",
+    "meta": 0,
+    "color": -13734263,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 73.0,
+      "defense": 4.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 140.0,
+      "modifier": 4.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 140.0,
+      "materialType": "trim"
+    },
+    "identifier": "soularium",
+    "meta": 0,
+    "color": -9872563,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 30.0,
+      "defense": 27.45,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 10.08,
+      "modifier": 27.45,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 10.08,
+      "materialType": "trim"
+    },
+    "identifier": "restonia_actadd_plustic",
+    "meta": 0,
+    "color": -5636096,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 72.0,
+      "defense": 14.4,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 14.4,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "duranite",
+    "meta": 0,
+    "color": -171,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 11.0,
+      "defense": 19.484999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 5.6,
+      "modifier": 19.484999,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 5.6,
+      "materialType": "trim"
+    },
+    "identifier": "ma.base_essence",
+    "meta": 0,
+    "color": -3014657,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 51.0,
+      "defense": 31.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 16.8,
+      "modifier": 31.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 16.8,
+      "materialType": "trim"
+    },
+    "identifier": "solarium",
+    "meta": 0,
+    "color": -171,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 29.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 27.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "abyssalnite",
+    "meta": 0,
+    "color": -11920247,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 37.0,
+      "defense": 26.1,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 26.1,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "palis_actadd_plustic",
+    "meta": 0,
+    "color": -16777046,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 21.0,
+      "defense": 42.885,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 13.44,
+      "modifier": 42.885,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 13.44,
+      "materialType": "trim"
+    },
+    "identifier": "refinediron",
+    "meta": 0,
+    "color": -2039584,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 52.0,
+      "defense": 21.600002,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 21.600002,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "valyrium",
+    "meta": 0,
+    "color": -11184811,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 14.0,
+      "defense": 20.7,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 5.376,
+      "modifier": 20.7,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 5.376,
+      "materialType": "trim"
+    },
+    "identifier": "ma.soulium",
+    "meta": 0,
+    "color": -11124169,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 81.0,
+      "defense": 36.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 28.784,
+      "modifier": 36.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 28.784,
+      "materialType": "trim"
+    },
+    "identifier": "desh",
+    "meta": 0,
+    "color": -15329770,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "graycloth",
+    "meta": 0,
+    "color": -12566464,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 54.0,
+      "defense": 31.635,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 3.36,
+      "modifier": 31.635,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 3.36,
+      "materialType": "trim"
+    },
+    "identifier": "mithril",
+    "meta": 0,
+    "color": -14641744,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 112.0,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 112.0,
+      "materialType": "trim"
+    },
+    "identifier": "chaoticdraconium",
+    "meta": 0,
+    "color": -15263977,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 89.6,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 89.6,
+      "materialType": "trim"
+    },
+    "identifier": "chaotic_plustic",
+    "meta": 0,
+    "color": -5592406,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 26.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 4.48,
+      "modifier": 27.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 4.48,
+      "materialType": "trim"
+    },
+    "identifier": "titanium",
+    "meta": 0,
+    "color": -1,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 21.0,
+      "defense": 36.045002,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.96,
+      "modifier": 36.045002,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.96,
+      "materialType": "trim"
+    },
+    "identifier": "psi",
+    "meta": 0,
+    "color": -13858615,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 117.0,
+      "defense": 49.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 17.92,
+      "modifier": 49.5,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 17.92,
+      "materialType": "trim"
+    },
+    "identifier": "refinedobsidian",
+    "meta": 0,
+    "color": -43521,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 75.0,
+      "defense": 47.25,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 22.175999,
+      "modifier": 47.25,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 22.175999,
+      "materialType": "trim"
+    },
+    "identifier": "pladium",
+    "meta": 0,
+    "color": -16318352,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 32.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 10.08,
+      "modifier": 27.0,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 10.08,
+      "materialType": "trim"
+    },
+    "identifier": "mica",
+    "meta": 0,
+    "color": -4473925,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 56.0,
+      "defense": 45.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 45.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "amethyst",
+    "meta": 0,
+    "color": -43521,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "lightbluecloth",
+    "meta": 0,
+    "color": -9729335,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 28.0,
+      "defense": 31.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 14.0,
+      "modifier": 31.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 14.0,
+      "materialType": "trim"
+    },
+    "identifier": "froststeel",
+    "meta": 0,
+    "color": -3744513,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 89.0,
+      "defense": 44.775,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 22.4,
+      "modifier": 44.775,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 22.4,
+      "materialType": "trim"
+    },
+    "identifier": "iridium",
+    "meta": 0,
+    "color": -1315861,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 47.0,
+      "defense": 39.24,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.087999,
+      "modifier": 39.24,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.087999,
+      "materialType": "trim"
+    },
+    "identifier": "pandorium",
+    "meta": 0,
+    "color": -8427008,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 32.0,
+      "defense": 25.2,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 44.8,
+      "modifier": 25.2,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 44.8,
+      "materialType": "trim"
+    },
+    "identifier": "energetic_alloy",
+    "meta": 0,
+    "color": -2518196,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 9.0,
+      "defense": 11.25,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 2.8,
+      "modifier": 11.25,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.8,
+      "materialType": "trim"
+    },
+    "identifier": "basalt",
+    "meta": 0,
+    "color": -1,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 28.0,
+      "defense": 37.530003,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 2.24,
+      "modifier": 37.530003,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.24,
+      "materialType": "trim"
+    },
+    "identifier": "lumium",
+    "meta": 0,
+    "color": -848,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 48.0,
+      "defense": 45.855,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 6.72,
+      "modifier": 45.855,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 6.72,
+      "materialType": "trim"
+    },
+    "identifier": "enderium",
+    "meta": 0,
+    "color": -16748959,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 34.0,
+      "defense": 28.664999,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 4.48,
+      "modifier": 28.664999,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 4.48,
+      "materialType": "trim"
+    },
+    "identifier": "signalum",
+    "meta": 0,
+    "color": -1680624,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 80.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 50.4,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 50.4,
+      "materialType": "trim"
+    },
+    "identifier": "wyverndraconium",
+    "meta": 0,
+    "color": -8769849,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 39.0,
+      "defense": 29.7,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 5.6,
+      "modifier": 29.7,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 5.6,
+      "materialType": "trim"
+    },
+    "identifier": "prometheum",
+    "meta": 0,
+    "color": -5635926,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 42.0,
+      "defense": 31.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 31.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "refined_coralium",
+    "meta": 0,
+    "color": -15297947,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 32.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 7.28,
+      "modifier": 27.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 7.28,
+      "materialType": "trim"
+    },
+    "identifier": "topaz",
+    "meta": 0,
+    "color": -22016,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 31.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 7.3919997,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 7.3919997,
+      "materialType": "trim"
+    },
+    "identifier": "xu_evil_metal",
+    "meta": 0,
+    "color": -131160,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 54.0,
+      "defense": 36.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 36.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "dreadium",
+    "meta": 0,
+    "color": -7864063,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 20.0,
+      "defense": 13.05,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 5.6,
+      "modifier": 13.05,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 5.6,
+      "materialType": "trim"
+    },
+    "identifier": "terrax",
+    "meta": 0,
+    "color": -11184811,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 61.0,
+      "defense": 40.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 18.928,
+      "modifier": 40.5,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 18.928,
+      "materialType": "trim"
+    },
+    "identifier": "kyronite",
+    "meta": 0,
+    "color": -8978305,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 1.0,
+      "defense": 22.95,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.78400004,
+      "modifier": 22.95,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.78400004,
+      "materialType": "trim"
+    },
+    "identifier": "nickel",
+    "meta": 0,
+    "color": -3615101,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 56.0,
+      "defense": 31.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 61.6,
+      "modifier": 31.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 61.6,
+      "materialType": "trim"
+    },
+    "identifier": "knightmetal",
+    "meta": 0,
+    "color": -3873106,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "blackcloth",
+    "meta": 0,
+    "color": -15133162,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 23.0,
+      "defense": 26.1,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 4.48,
+      "modifier": 26.1,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 4.48,
+      "materialType": "trim"
+    },
+    "identifier": "osmium",
+    "meta": 0,
+    "color": -11184641,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 9.0,
+      "defense": 31.679998,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": -2.24,
+      "modifier": 31.679998,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": -2.24,
+      "materialType": "trim"
+    },
+    "identifier": "elvenelementium",
+    "meta": 0,
+    "color": -1229864,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 89.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 25.424,
+      "modifier": 50.0,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 25.424,
+      "materialType": "trim"
+    },
+    "identifier": "ionite",
+    "meta": 0,
+    "color": -9570817,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 28.0,
+      "defense": 30.780003,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.96,
+      "modifier": 30.780003,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.96,
+      "materialType": "trim"
+    },
+    "identifier": "ruby",
+    "meta": 0,
+    "color": -3211264,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 32.0,
+      "defense": 27.9,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 8.4,
+      "modifier": 27.9,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 8.4,
+      "materialType": "trim"
+    },
+    "identifier": "fluixcrystal_plustic",
+    "meta": 0,
+    "color": -2009268071,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 3.0,
+      "defense": 18.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 5.6,
+      "modifier": 18.0,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 5.6,
+      "materialType": "trim"
+    },
+    "identifier": "tiberium",
+    "meta": 0,
+    "color": -11141291,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 120.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 33.6,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 33.6,
+      "materialType": "trim"
+    },
+    "identifier": "ma.supremium",
+    "meta": 0,
+    "color": -3932160,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 8.0,
+      "defense": 28.035,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 3.92,
+      "modifier": 28.035,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 3.92,
+      "materialType": "trim"
+    },
+    "identifier": "orichalcum",
+    "meta": 0,
+    "color": -14592,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 4.0,
+      "defense": 5.625,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 28.0,
+      "modifier": 5.625,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 28.0,
+      "materialType": "trim"
+    },
+    "identifier": "conductive_iron",
+    "meta": 0,
+    "color": -5546657,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 21.0,
+      "defense": 19.350002,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.0,
+      "modifier": 19.350002,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.0,
+      "materialType": "trim"
+    },
+    "identifier": "nagascale",
+    "meta": 0,
+    "color": -13476571,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 94.0,
+      "defense": 50.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 26.88,
+      "modifier": 50.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 26.88,
+      "materialType": "trim"
+    },
+    "identifier": "wyvern_plustic",
+    "meta": 0,
+    "color": -5635926,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 2.0,
+      "defense": 15.75,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 1.12,
+      "modifier": 15.75,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 1.12,
+      "materialType": "trim"
+    },
+    "identifier": "eezo",
+    "meta": 0,
+    "color": -22016,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 0.0,
+      "defense": 0.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 0.56,
+      "modifier": 0.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 0.56,
+      "materialType": "trim"
+    },
+    "identifier": "greencloth",
+    "meta": 0,
+    "color": -13285861,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 23.0,
+      "defense": 30.735,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 7.84,
+      "modifier": 30.735,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 7.84,
+      "materialType": "trim"
+    },
+    "identifier": "quartzenrichediron",
+    "meta": 0,
+    "color": -1644826,
+    "type": "METAL",
+    "isCastable": false,
+    "isCraftable": true,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 32.0,
+      "defense": 20.25,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 5.6,
+      "modifier": 20.25,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 5.6,
+      "materialType": "trim"
+    },
+    "identifier": "niob",
+    "meta": 0,
+    "color": -43691,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 3.0,
+      "defense": 13.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 2.24,
+      "modifier": 13.5,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.24,
+      "materialType": "trim"
+    },
+    "identifier": "queensgold",
+    "meta": 0,
+    "color": -2294016,
+    "type": "METAL",
+    "isCastable": true,
+    "isCraftable": false,
+    "traits": []
+  }
+]

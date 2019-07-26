@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Spawns>
+    <Spawn name="Bulbasaur" starter="true" overwrite="true" rate="0.01" min="1" max="2" types="forest"/>
+    <Spawn name="Squirtle" starter="true" overwrite="true" rate="0.01" min="1" max="2" types="lake" water="true"/>
+    <Spawn name="Caterpie" overwrite="true" rate="0.2" min="4" max="8" types="forest" typesBlacklist="sparse,cold,dry"/>//Overwrite to clear original
+    <Spawn name="Caterpie"  rate="0.2" min="4" max="8" types="wet" typesBlacklist="sparse,cold,dry"/>//Don't overwrite to add
+</Spawns>

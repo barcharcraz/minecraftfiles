@@ -1,0 +1,752 @@
+# Configuration file
+
+advanced {
+    I:baseRadarRange=64
+    S:damageBlocksBlacklist <
+     >
+    S:damageBlocksWhitelist <
+        flash
+        teleport
+        dig
+        cut
+        rocksmash
+        secretpower
+     >
+    B:debug=false
+    I:evolutionTicks=50
+    S:extraVars <
+        jc:3.5
+        rc:4.5
+        eggDpl:2.0
+        eggDpm:4.0
+     >
+    S:mystLocs <
+     >
+    B:nonPokemobExp=false
+    S:nonPokemobExpFunction=h*(a+1)
+    B:pokemobsAreAllFrozen=false
+    B:resetTags=false
+    I:teleDimBlackList <
+     >
+    I:telePearlsCostOtherDim=16
+    I:telePearlsCostSameDim=0
+    I:version=-1
+}
+
+
+ai {
+    I:aiDisableDistance=32
+    I:attackCooldown=20
+    I:breedingDelay=4000
+    I:captureDelayTicks=0
+    B:captureDelayTillAttack=true
+    I:chaseDistance=32
+    I:combatDistance=4
+    B:cull=false
+    I:cullDistance=96
+    B:despawn=true
+    I:despawnTimer=2000
+    B:diveEnabled=true
+    S:dodgeSounds <
+        entity.witch.throw
+     >
+    D:dodgeSpeedFactor=1.0
+    I:eggHatchTime=10000
+    D:expFromDeathDropScale=1.0
+    B:explosions=true
+    I:fishHookBaitRange=16
+    I:flyDimBlacklist <
+        -1
+        1
+     >
+    B:flyEnabled=true
+    D:flyPathingSpeedFactor=1.25
+    D:flySpeedFactor=1.0
+    D:groundSpeedFactor=1.0
+    S:guardBlacklistClass <
+        net.minecraft.entity.IMerchant
+        net.minecraft.entity.INpc
+        pokecube.core.items.pokemobeggs.EntityPokemobEgg
+        net.minecraft.entity.IProjectile
+     >
+    S:guardBlacklistId <
+     >
+    B:guardModeEnabled=true
+    I:guardSearchDistance=16
+    I:guardTickRate=20
+    D:hordeRateFactor=1.0
+    I:hungerTickRate=20
+    I:idleMaxPathTame=8
+    I:idleMaxPathWild=8
+    I:idleTickRate=20
+    D:interactDelayScale=1.0
+    D:interactHungerScale=1.0
+    S:leapSounds <
+        entity.witch.throw
+     >
+    D:leapSpeedFactor=1.0
+    I:mateAIRate=40
+    D:mateDensityPlayer=4.0
+    D:mateDensityWild=2.0
+    I:mateMultiplier=1
+    I:mobAggroRadius=3
+    I:mobAgroRate=200
+    B:pokemobCollisions=true
+    I:pokemobLifeSpan=8000
+    I:pokemobagressticks=100
+    B:pokemobagresswarning=true
+    B:pokemobsDamageBlocks=false
+    B:pokemobsDamageOwner=false
+    B:pokemobsDamagePlayers=true
+    B:pokemobsDropItems=true
+    B:pokemobsEatGravel=false
+    B:pokemobsEatPlants=true
+    B:pokemobsEatRocks=true
+    B:pokemobsOnShoulder=true
+    B:surfEnabled=true
+    D:surfSpeedFactor=1.0
+    D:swimPathingSpeedFactor=1.25
+    B:tameGather=true
+    I:tameGatherDelay=20
+    I:tameGatherDistance=16
+    B:wildGather=false
+    I:wildGatherDelay=200
+    I:wildGatherDistance=8
+}
+
+
+client {
+    I:autoRecallDistance=32
+    B:autoRecallPokemobs=false
+    B:autoSelectMoves=false
+    B:battleLogInChat=false
+    B:extraberries=false
+    B:guiAutoScale=false
+    B:guiDown=true
+    I:guiPos <
+        0
+        0
+     >
+    S:guiRef=top_left
+    D:guiSize=1.0
+    I:messagePadding <
+        0
+        0
+     >
+    I:messagePos <
+        -150
+        -100
+     >
+    S:messageRef=right_middle
+    D:messageSize=1.0
+    I:messageWidth=150
+    B:riddenMobsTurnWithLook=true
+    I:targetPos <
+        147
+        -42
+     >
+    S:targetRef=top_right
+    D:targetSize=1.0
+    I:telePos <
+        89
+        17
+     >
+    S:teleRef=top_right
+    D:teleSize=1.0
+}
+
+
+database {
+    S:configDatabases <
+        
+        
+        
+     >
+    B:forceBerries=true
+    B:forceDatabase=true
+    B:forceRecipes=true
+    B:forceRewards=true
+    S:recipeDatabases <
+        recipes
+     >
+    S:rewardDatabases <
+        rewards
+     >
+    B:useCache=true
+}
+
+
+generation {
+    B:autoAddNullBerries=false
+    B:autoDetectSubbiomes=true
+    B:autoPopulateLists=true
+    I:baseMaxSize=1
+    S:baseSizeFunction=8 + c/10 + h/10 + k/20
+    B:basesLoaded=true
+    S:blocksFruits <
+        minecraft:wheat age=7
+        minecraft:nether_wart age=3
+        minecraft:carrots age=7
+        minecraft:potatoes age=7
+        minecraft:melon_block
+        minecraft:pumpkin
+        pokecube:berryfruit
+     >
+    S:blocksGround <
+        minecraft:sand
+        minecraft:gravel
+        minecraft:stained_hardened_clay
+        minecraft:hardened_clay
+        minecraft:dirt
+        minecraft:grass
+     >
+    S:blocksIndustrial <
+        minecraft:redstone_block
+        minecraft:furnace
+        minecraft:lit_furnace
+        minecraft:piston
+        minecraft:sticky_piston
+        minecraft:dispenser
+        minecraft:dropper
+        minecraft:hopper
+        minecraft:anvil
+     >
+    S:blocksLeaves <
+        betterwithaddons:leaves_luretree
+        tropicraft:leaves_fruit
+        cfm:hedge_birch
+        hwell:myst_leaves
+        thebetweenlands:leaves_rubber_tree
+        cyclicmagic:item_pump
+        extrautils2:ironwood_leaves
+        natura:nether_leaves
+        erebus:jade_berry_bush
+        aether:green_skyroot_leaves
+        natura:overworld_leaves2
+        natura:nether_berrybush_duskberry
+        extratrees:leaves.decorative.2
+        extratrees:leaves.decorative.1
+        extratrees:leaves.decorative.4
+        extratrees:leaves.decorative.3
+        tropicraft:leaves
+        extratrees:leaves.decorative.6
+        extratrees:leaves.decorative.5
+        twilightforest:twilight_leaves
+        aether:dark_blue_skyroot_leaves
+        yurtmod:cos_indlu_wall_outer
+        natura:nether_leaves2
+        advancedrocketry:alienleaves
+        forestry:leaves.decorative.0
+        forestry:leaves.decorative.1
+        erebus:leaves_baobab
+        erebus:leaves_mahogany
+        thebetweenlands:leaves_spirit_tree_top
+        cfm:hedge_oak
+        natura:nether_berrybush_stingberry
+        aether_legacy:aether_leaves
+        aether:dark_blue_dark_skyroot_leaves
+        cyclicmagic:fluid_pump
+        aether:brettl_plant
+        extratrees:leaves.decorative.0
+        rustic:leaves_apple
+        randomthings:spectreleaf
+        cfm:hedge_dark_oak
+        sky_orchards:leaves_iron
+        pokecube:berryleaf
+        roots:wildwood_leaves
+        traverse:fir_leaves
+        thebetweenlands:leaves_spirit_tree_bottom
+        thebetweenlands:leaves_sap_tree
+        ic2:leaves
+        extratrees:leaves.default.6
+        cfm:wreath
+        natura:nether_berrybush_skyberry
+        extratrees:leaves.default.7
+        erebus:leaves_asper
+        extratrees:leaves.default.8
+        extratrees:leaves.default.9
+        betterwithaddons:leaves_sakura
+        extratrees:leaves.default.2
+        extratrees:leaves.default.3
+        extratrees:leaves.default.4
+        extratrees:leaves.default.5
+        extratrees:leaves.default.fruit.4
+        erebus:swamp_berry_bush
+        extratrees:leaves.default.fruit.5
+        natura:overworld_berrybush_blackberry
+        extratrees:leaves.default.fruit.6
+        extratrees:leaves.default.0
+        extratrees:leaves.default.1
+        extratrees:leaves.default.fruit.7
+        extratrees:leaves.default.fruit.8
+        extratrees:leaves.default.fruit.9
+        sky_orchards:leaves_gold
+        aether:therawood_leaves
+        natura:redwood_leaves
+        extratrees:leaves.default.fruit.0
+        thebetweenlands:leaves_hearthgrove_tree
+        extratrees:leaves.default.fruit.1
+        extratrees:leaves.default.fruit.2
+        extratrees:leaves.default.fruit.3
+        biomesoplenty:leaves_0
+        cfm:hedge_spruce
+        biomesoplenty:leaves_2
+        biomesoplenty:leaves_1
+        biomesoplenty:leaves_4
+        abyssalcraft:dltleaves
+        biomesoplenty:leaves_3
+        biomesoplenty:leaves_6
+        biomesoplenty:leaves_5
+        aether:blue_light_skyroot_leaves
+        thaumcraft:leaves_silverwood
+        aether:green_dark_skyroot_leaves
+        aether:green_light_skyroot_leaves
+        natura:overworld_leaves
+        betterwithmods:vine_trap
+        inspirations:enlightened_bush
+        sky_orchards:leaves_lapis
+        aether:dark_blue_light_skyroot_leaves
+        cfm:hedge_jungle
+        twilightforest:magic_leaves
+        rustic:leaves
+        aether:blueberry_bush
+        abyssalcraft:dreadleaves
+        millenaire:leaves_appletree
+        aether:mutant_leaves_decorated
+        thebetweenlands:leaves_nibbletwig_tree
+        yurtmod:indlu_wall_inner
+        integrateddynamics:menril_leaves
+        erebus:leaves_mossbark
+        extratrees:leaves.default.20
+        forestry:leaves
+        extratrees:leaves.default.21
+        extratrees:leaves.default.22
+        extratrees:leaves.default.23
+        extratrees:leaves.default.24
+        natura:overworld_berrybush_blueberry
+        erebus:leaves_marshwood
+        erebus:hanging_web
+        quark:leaf_carpet
+        traverse:red_autumnal_leaves
+        twilightforest:dark_leaves
+        cyclicmagic:energy_pump
+        forestry:leaves.default.0
+        natura:nether_berrybush_blightberry
+        aether:highlands_bush
+        thebetweenlands:leaves_weedwood_tree
+        moreplanets:nibiru_leaves
+        traverse:yellow_autumnal_leaves
+        forestry:leaves.default.5
+        extratrees:leaves.default.17
+        extratrees:leaves.default.18
+        yurtmod:indlu_wall_outer
+        forestry:leaves.default.6
+        extratrees:leaves.default.19
+        forestry:leaves.default.7
+        forestry:leaves.default.8
+        forestry:leaves.default.1
+        forestry:leaves.default.2
+        forestry:leaves.default.3
+        forestry:leaves.default.4
+        extratrees:leaves.default.10
+        extratrees:leaves.default.11
+        naturesaura:golden_leaves
+        erebus:heart_berry_bush
+        extratrees:leaves.default.12
+        extratrees:leaves.default.13
+        aether_legacy:crystal_leaves
+        extratrees:leaves.default.14
+        fp:leaves
+        extratrees:leaves.default.15
+        sky_orchards:leaves_redstone
+        extratrees:leaves.default.16
+        extratrees:leaves.default.fruit.14
+        forestry:leaves.default.fruit.0
+        extratrees:leaves.default.fruit.13
+        cfm:hedge_acacia
+        aether:blue_dark_skyroot_leaves
+        extratrees:leaves.default.fruit.12
+        natura:overworld_berrybush_raspberry
+        forestry:leaves.default.fruit.1
+        extratrees:leaves.default.fruit.11
+        extratrees:leaves.default.fruit.10
+        mysticalworld:thatch
+        betterwithmods:blood_leaves
+        betterwithaddons:leaves_mulberry
+        rustic:grape_leaves
+        totemic:cedar_leaves
+        aether:mutant_leaves
+        aether:blue_skyroot_leaves
+        tconstruct:slime_leaves
+        traverse:brown_autumnal_leaves
+        thebetweenlands:leaves_spirit_tree_middle
+        erebus:leaves_eucalyptus
+        twilightforest:twilight_leaves_3
+        naturesaura:decayed_leaves
+        thaumcraft:leaves_greatwood
+        yurtmod:cos_indlu_wall_inner
+        forestry:leaves.decorative.2
+        erebus:leaves_balsam
+        sky_orchards:leaves_diamond
+        gregtech:leaves
+        aether:amberoot_leaves
+        aether_legacy:holiday_leaves
+        twilightforest:giant_leaves
+        naturesaura:ancient_leaves
+        natura:overworld_berrybush_maloberry
+        minecraft:leaves2
+        traverse:orange_autumnal_leaves
+        techreborn:rubber_leaves
+        minecraft:leaves
+        erebus:leaves_cypress
+     >
+    S:blocksOre <
+        .*:.*_ore
+        .*:ore*
+        .*:ore
+     >
+    S:blocksPlants <
+        minecraft:double_plant
+        minecraft:red_flower
+        minecraft:yellow_flower
+        minecraft:tallgrass
+        minecraft:deadbush
+        minecraft:wheat
+        minecraft:carrots
+        minecraft:potatoes
+        pokecube:berryfruit
+     >
+    S:blocksStones <
+        minecraft:stone variant=stone
+        minecraft:stone variant=granite
+        minecraft:stone variant=diorite
+        minecraft:stone variant=andesite
+        minecraft:netherrack
+        minecraft:sandstone type=sandstone
+        minecraft:red_sandstone type=red_sandstone
+        minecraft:cobblestone
+     >
+    S:blocksTerrain <
+     >
+    S:blocksWood <
+        biomesoplenty:log_1
+        biomesoplenty:log_2
+        naturesaura:ancient_bark
+        biomesoplenty:log_0
+        naturesaura:ancient_log
+        sky_orchards:log_redstone
+        biomesoplenty:log_3
+        biomesoplenty:log_4
+        advancedrocketry:charcoallog
+        erebus:log_balsam_resinless
+        pyrotech:log_pile
+        thebetweenlands:log_nibbletwig
+        naturalpledge:rainbow_log
+        thebetweenlands:log_spreading_rotten_bark
+        forestry:logs.fireproof.0
+        forestry:logs.fireproof.2
+        naturalpledge:seal_log
+        integrateddynamics:menril_log
+        forestry:logs.fireproof.1
+        forestry:logs.fireproof.4
+        minecraft:log2
+        forestry:logs.fireproof.3
+        forestry:logs.fireproof.6
+        forestry:logs.fireproof.5
+        betterwithaddons:log_termite
+        fp:wood
+        forestry:logs.fireproof.7
+        sky_orchards:log_gold
+        naturalpledge:iris_log2
+        abyssalcraft:dreadlog
+        naturalpledge:iris_log3
+        naturalpledge:iris_log0
+        naturalpledge:iris_log1
+        naturalpledge:aurora_log
+        twilightforest:magic_log_core
+        extratrees:logs.0
+        extratrees:logs.1
+        thebetweenlands:log_rubber
+        extratrees:logs.4
+        extratrees:logs.5
+        extratrees:logs.2
+        extratrees:logs.3
+        extratrees:logs.8
+        extratrees:logs.9
+        extratrees:logs.6
+        extratrees:logs.7
+        thaumcraft:taint_log
+        natura:nether_logs
+        aether:light_skyroot_log
+        abyssalcraft:dltlog2
+        abyssalcraft:dltlog
+        tropicraft:log
+        hwell:myst_log
+        erebus:log_asper
+        sky_orchards:log_iron
+        gregtech:log
+        thebetweenlands:log_rotten_bark
+        betterwithaddons:log_mulberry
+        moreplanets:nibiru_log
+        aether:dark_skyroot_log
+        erebus:log_eucalyptus
+        randomthings:spectrelog
+        thaumcraft:log_greatwood
+        betterwithaddons:log_luretree
+        extratrees:logs.fireproof.2
+        extratrees:logs.fireproof.3
+        thaumcraft:log_silverwood
+        extratrees:logs.fireproof.4
+        pokecube:log_sitrus
+        extratrees:logs.fireproof.5
+        extratrees:logs.fireproof.6
+        extratrees:logs.fireproof.7
+        forestry:logs.0
+        extratrees:logs.fireproof.8
+        naturalpledge:thunder_log
+        extratrees:logs.fireproof.9
+        forestry:logs.3
+        betterwithaddons:rope_sideways
+        forestry:logs.4
+        thebetweenlands:log_weedwood
+        betterwithaddons:log_sakura
+        forestry:logs.1
+        forestry:logs.2
+        forestry:logs.7
+        erebus:log_mahogany
+        extratrees:logs.fireproof.0
+        forestry:logs.5
+        forestry:logs.6
+        extratrees:logs.fireproof.1
+        twilightforest:twilight_log
+        pokecube:log_pecha
+        ic2:rubber_wood
+        sky_orchards:log_lapis
+        erebus:log_baobab
+        pokecube:log_enigma
+        traverse:fir_log
+        pokecube:log_leppa
+        thebetweenlands:log_hearthgrove
+        thebetweenlands:log_spirit_tree
+        integrateddynamics:menril_log_filled
+        betterwithmods:blood_log
+        pokecube:log_nanab
+        extrautils2:ironwood_log
+        natura:overworld_logs
+        erebus:log_scorched
+        minecraft:log
+        harvestcraft:pamcinnamon
+        extratrees:multifence
+        wizardry:wisdom_wood_log
+        aether:skyroot_log
+        totemic:stripped_cedar_log
+        naturalpledge:calico_log
+        erebus:log_rotten
+        natura:overworld_logs2
+        harvestcraft:pammaple
+        moreplanets:cheese_spore_stem
+        pokecube:log_oran
+        thebetweenlands:log_portal
+        aether:therawood_log
+        thebetweenlands:log_sap
+        erebus:log_mossbark
+        erebus:log_cypress
+        forestry:logs.vanilla.fireproof.1
+        forestry:logs.vanilla.fireproof.0
+        totemic:cedar_log
+        aether_legacy:aether_log
+        roots:wildwood_log
+        extratrees:shrub_log
+        erebus:log_marshwood
+        naturalpledge:circuit_log
+        aether:golden_oak_log
+        techreborn:rubber_log
+        advancedrocketry:alienwood
+        twilightforest:magic_log
+        natura:nether_logs2
+        naturalpledge:alt_log1
+        naturalpledge:alt_log0
+        natura:redwood_logs
+        sky_orchards:log_diamond
+        twilightforest:cinder_log
+        erebus:log_balsam
+        rustic:log
+        betterwithaddons:scaffold
+        harvestcraft:pampaperbark
+     >
+    B:chunkLoadPokecenters=true
+    I:cropGrowthTicks=2500
+    B:doSpawnBuilding=true
+    S:extraWorldgenDatabases <
+     >
+    B:generateFossils=true
+    I:leafBerryTicks=7500
+    I:meteorDistance=3000
+    I:meteorRadius=64
+    B:meteors=true
+    B:refreshSubbiomes=false
+    I:spawnDimension=0
+    S:structureSubiomes <
+        Stronghold:ruin
+        Mineshaft:ruin
+        Temple:ruin
+        EndCity:ruin
+        Fortress:ruin
+        Mansion:ruin
+        Monument:monument
+        Village:village
+     >
+    B:villagePokecenters=true
+}
+
+
+genetics {
+    S:epigeneticEVFunction=rand()*(((2*v + 256) * 31) / 512)
+    S:mutationRates <
+        pokecube:colour 0.01
+        pokecube:moves 0.0
+        pokecube:species 0.1
+        pokecube:size 0.1
+        pokecube:evs 0.1
+        pokecube:shiny 0.010416667
+        pokecube:nature 0.05
+        pokecube:ivs 0.1
+        pokecube:ability 0.1
+     >
+}
+
+
+healthbars {
+    I:backgroundHeight=6
+    I:backgroundPadding=2
+    I:barHeight=4
+    I:caughtNamedColour=5592575
+    B:doHealthBars=true
+    B:drawBackground=true
+    B:enableDebugInfo=true
+    B:groupArmor=true
+    D:heightAbove=0.6
+    I:hpTextHeight=14
+    I:maxDistance=24
+    I:otherOwnedNameColour=16733525
+    I:ownedNameColour=5635925
+    I:plateSize=25
+    B:renderInF1=false
+    I:scannedNameColour=8978431
+    B:showArmor=true
+    B:showHeldItem=true
+    B:showOnlyFocused=false
+    I:unknownNameColour=8947848
+}
+
+
+items {
+    S:customFossils <
+     >
+    S:customHeldItems <
+     >
+}
+
+
+misc {
+    B:berryBreeding=true
+    S:customSounds <
+     >
+    B:defaultInteractions=true
+    S:defaultMobs=
+    B:default_contributors=true
+    D:expScaleFactor=1.0
+    S:extra_contributors=
+    B:guiOnLogin=true
+    B:loginmessage=true
+    B:mysterygift=true
+    B:pcHoldsOnlyPokecubes=true
+    B:pcOnDrop=true
+    B:pvpExp=false
+    D:pvpExpMultiplier=0.5
+    D:scalefactor=1.0
+    S:snagblacklist <
+        net.minecraft.entity.boss.EntityDragon
+        net.minecraft.entity.boss.EntityWither
+     >
+    B:trainerExp=true
+}
+
+
+moves {
+    I:baseSmeltingHunger=100
+    I:blastRadius=16
+    D:blastStrength=100.0
+    D:contactAttackDamageScale=1.0
+    D:contactAttackDistance=0.0
+    B:defaultElectricActions=true
+    B:defaultFireActions=true
+    B:defaultIceActions=true
+    B:defaultWaterActions=true
+    I:maxOwnedPlayerDamage=10
+    I:maxWildPlayerDamage=10
+    B:onlyPokemobsDamagePokemobs=false
+    D:ownedPlayerDamageMagic=0.1
+    D:ownedPlayerDamageRatio=1.0
+    D:playerToPokemobDamageScale=1.0
+    D:pokemobToNPCDamageRatio=1.0
+    D:pokemobToOtherMobDamageRatio=1.0
+    D:rangedAttackDamageScale=1.0
+    D:rangedAttackDistance=16.0
+    D:wildPlayerDamageMagic=0.1
+    D:wildPlayerDamageRatio=1.0
+}
+
+
+permissions {
+    B:permsCapture=false
+    B:permsCaptureSpecific=false
+    B:permsDive=false
+    B:permsDiveSpecific=false
+    B:permsFly=false
+    B:permsFlySpecific=false
+    B:permsHatch=false
+    B:permsHatchSpecific=false
+    B:permsMoveAction=false
+    B:permsRide=false
+    B:permsRideSpecific=false
+    B:permsSendOut=false
+    B:permsSendOutSpecific=false
+    B:permsSurf=false
+    B:permsSurfSpecific=false
+}
+
+
+spawning {
+    B:deactivateAnimals=true
+    B:deactivateMonsters=false
+    I:dimensionBlacklist <
+     >
+    I:dimensionWhitelist <
+     >
+    B:disableVanillaAnimals=false
+    B:disableVanillaMonsters=false
+    B:expFunction=false
+    I:levelCap=50
+    I:maxSpawnRadius=32
+    I:minLegendLevel=1
+    I:minSpawnRadius=16
+    D:mobDensityMultiplier=1.0
+    I:mobSpawnNumber=10
+    B:nests=false
+    I:nestsPerChunk=1
+    B:pokemonSpawn=true
+    B:refreshNests=false
+    I:repelRadius=10
+    B:shouldCap=true
+    S:spawnLevelFunctions <
+        -1:abs((25)*(sin(x*8*10^-3)^3 + sin(y*8*10^-3)^3)):false:false
+        0:abs((25)*(sin(x*10^-3)^3 + sin(y*10^-3)^3)):false:false
+        1:1+r/200:true:true
+     >
+    S:spawnLevelVariance=x + ceil(5*rand())
+    I:spawnRate=20
+    B:whiteListEnabled=false
+}
+
+

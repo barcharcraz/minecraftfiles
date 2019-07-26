@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Spawns>
+    <Spawn name="Lunatone" overwrite="false" rate="0.01" min="1" max="2" types="moon"/>
+    <Spawn name="Solrock" overwrite="false" rate="0.01" min="1" max="2" types="moon"/>
+    <Spawn name="Beldum" overwrite="false" rate="0.01" min="1" max="2" types="moon"/>
+    <Spawn name="Minior" overwrite="false" rate="0.01" min="1" max="2" types="moon"/>
+    <Spawn name="Clefairy" overwrite="false" rate="0.2" min="4" max="6" types="moon"/>
+    <Spawn name="Deoxys" overwrite="false" rate="0.0001" min="1" max="2" types="space"/>
+    <Spawn name="Rayquaza" overwrite="false" rate="0.0001" min="1" max="1" types="space"/>
+</Spawns>

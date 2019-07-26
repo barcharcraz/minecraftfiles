@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Demos",
+      "uniqueId": "73f057ec-0728-4bf7-989b-286f066f8355"
+    },
+    "time": 1563764832665,
+    "type": "Sampler",
+    "data": {
+      "type": "url",
+      "value": "https://sparkprofiler.github.io/#rRnOija9ii"
+    }
+  }
+]
